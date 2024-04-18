@@ -34,7 +34,7 @@ const FriendMessage = (props: MessagePropsType) => {
                         className={s.friendMessageText}
                     >
                         {/*создаёт студент*/}
-                        Hello, she didn’t do anything and rested all day, how are you?
+                        {props.message.message.text}
                         {/**/}
                     </pre>
                 </div>
